@@ -1,0 +1,253 @@
+.main {
+    background-color: #f9f6f2;
+    background-image: url('../images/Login/india-republic-day-celebration-digital-art-with-people.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.login {
+    height: 350px;
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px inset;
+    backdrop-filter: blur(7px);
+}
+
+.login:hover {
+    box-shadow: 0px 0px 10px black;
+}
+
+#voter {
+    align-content: center;
+    background-color: transparent;
+    position: absolute;
+    left: 585px;
+    top: 100px;
+    animation: a1;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#party {
+    background-color: #EE7214;
+    position: absolute;
+    left: 215px;
+    top: 100px;
+    animation: a2;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+#executive {
+    background-color: white;
+    position: absolute;
+    left: 585px;
+    top: 100px;
+}
+
+#commissioner {
+    background-color: green;
+    position: absolute;
+    left: 955px;
+    top: 100px;
+    animation: a3;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+
+@keyframes a1 {
+    0% {
+        background-color: whitesmoke;
+        left: 215px;
+        width: 1090px;
+    }
+
+    100% {
+        left: 585px;
+        width: 350px;
+    }
+}
+
+@keyframes a2 {
+    0% {
+        left: 585px;
+    }
+
+    100% {
+        left: 215px;
+    }
+}
+
+@keyframes a3 {
+    0% {
+        left: 585px;
+    }
+
+    100% {
+        left: 955px;
+    }
+}
+
+h5 {
+    text-align: center;
+}
+
+button {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 5px 115px;
+    color: #000;
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid black;
+    outline: none;
+    transition: 0.2s;
+}
+
+.in {
+    margin: 10px 30px;
+    text-align: center;
+    width: 290px;
+}
+
+#captcha {
+    transform: scale(0.70);
+    transform-origin: 0 0;
+}
+
+button:hover {
+    background-color: #088178;
+    border: 1px solid #088178;
+    color: #fff;
+}
+
+.link1 {
+    color: black;
+    font-size: medium;
+    text-decoration: none;
+    float: left;
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+.link1:hover {
+    color: white;
+    text-decoration: none;
+}
+
+#executive .link1:hover {
+    color: #088178;
+}
+
+.link2 {
+    color: black;
+    font-size: medium;
+    text-decoration: none;
+    float: right;
+    margin-top: 2px;
+    margin-right: 10px;
+}
+
+.link2:hover {
+    color: white;
+    text-decoration: none;
+}
+
+#executive .link2:hover {
+    color: #088178;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border: 1px black solid;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0px 0px 10px black inset;
+    border-radius: 10px;
+}
+
+.logo:hover {
+    box-shadow: 0px 0px 10px black;
+    animation: pluse 2s infinite;
+}
+
+@keyframes pluse {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+}
+
+#d1 {
+    right: 20px;
+    top: 70px;
+    background-image: url('../images/Login/Taj Mahal.jpg');
+    /* -webkit-box-reflect: left 0 linear-gradient(to left, #0000, #0009); */
+}
+
+#d2 {
+    right: 20px;
+    top: 190px;
+    background-image: url('../images/Login/Spices.jpg');
+}
+
+#d3 {
+    right: 20px;
+    top: 310px;
+    background-image: url('../images/Login/Chandrayan 3.jpeg');
+}
+
+#d4 {
+    left: 20px;
+    bottom: 260px;
+    background-image: url('../images/Login/Statue of Unity.jpg');
+}
+
+#d5 {
+    left: 20px;
+    bottom: 140px;
+    background-image: url('../images/Login/Temple.jpg');
+}
+
+#d6 {
+    left: 20px;
+    bottom: 20px;
+    background-image: url('../images/Login/Yoga.jpeg');
+}
+
+#d7 {
+    left: 140px;
+    bottom: 20px;
+    background-image: url('../images/Login/qutub minar.jpeg');
+}
+
+.btn {
+    background-color: #088178;
+    border-radius: 7px;
+    width: 200px;
+    padding: 5px 10px;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    color: white;
+    border: white;
+}
+
+.btn:hover {
+    background-color: transparent;
+    border: 3px black groove;
+    box-shadow: white 5px 5px 60px -12px inset;
+    color: black;
+}
