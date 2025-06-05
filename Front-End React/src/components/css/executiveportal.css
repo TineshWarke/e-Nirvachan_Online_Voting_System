@@ -1,0 +1,105 @@
+.portal {
+    background-color: whitesmoke;
+    position: absolute;
+    right: 500px;
+    top: 70px;
+    width: 323px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.portal:hover {
+    box-shadow: 0px 0px 20px 2px white;
+}
+
+.voterdata{
+    width: 99.6%;
+    margin: 0.2%;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 5px;
+}
+
+.datatable {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px black solid;
+    border-radius: 5px;
+}
+
+#n {
+    width: 48%;
+}
+
+#p{
+    width: 255px;
+}
+
+.datatable button {
+    width: 60px;
+    padding: 0%;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background-color: #088178;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.2s;
+    margin: 2px;
+}
+
+.datatable button:nth-child(2){
+    background-color: rgba(115, 12, 50, 1);
+}
+
+.datatable button:hover{
+    background-color: whitesmoke;
+    box-shadow: 0 0 5px black inset;
+    border: 2px solid black;
+    color: black;
+}
+
+.datatable td {
+    padding: 5px;
+}
+
+.datatable tr:nth-child(even) {
+    background-color: #CCE5E3;
+}
+
+.datatable tr:hover {
+    background-color: #ddd;
+}
+
+.datatable th {
+    padding: 2px;
+    text-align: left;
+    background-color: lightseagreen;
+    border-bottom: 2px black solid;
+}
+
+#e{
+    width: 730px;
+}
+
+.party1{
+    width: 48%;
+    height: 250px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    position: absolute;
+    right: 20px;
+    bottom: 70px;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.partydata {
+    width: 96.4%;
+    margin: 1.8%;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 5px;
+}

@@ -1,0 +1,182 @@
+.sign {
+    background-color: #088178;
+    height: 100vh;
+    width: 100%;
+}
+
+.sign .title{
+    border-bottom: 3px solid black;
+}
+
+#heading {
+    background-color: gray;
+    border-bottom: 3px solid black;
+    width: 100%;
+    height: 90px;
+    left: 0px;
+    top: 0px;
+}
+
+#heading h1{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    text-shadow: 4px 4px black;
+}
+
+.signupform {
+    border: 3px black solid;
+    width: 570px;
+    height: 600px;
+    margin-top: 30px;
+    position: absolute;
+    padding: 35px;
+}
+
+#vs1 {
+    background-color: whitesmoke;
+    margin-left: 153px;
+}
+
+#vs2 {
+    background-color: whitesmoke;
+    margin-left: 823px;
+}
+
+.signupform div {
+    position: absolute;
+}
+
+#fname {
+    width: 500px;
+    top: 100px;
+}
+
+#lname {
+    width: 500px;
+    top: 180px;
+}
+
+#dobdiv {
+    top: 280px;
+    width: 172px;
+}
+
+#dob {
+    left: 113px;
+}
+
+#agediv {
+    top: 280px;
+    width: 140px;
+    left: 60%;
+}
+
+#age {
+    left: 53px;
+}
+
+#gendiv {
+    top: 345px;
+    width: 30%;
+}
+
+#gender {
+    left: 77px;
+}
+
+#castediv {
+    top: 345px;
+    width: 30%;
+    left: 53%;
+}
+
+#caste {
+    left: 64px;
+}
+
+#citydiv {
+    top: 410px;
+    width: 184px;
+    left: 53%;
+}
+
+#city {
+    left: 50px;
+}
+
+#statediv {
+    top: 410px;
+    width: 185px;
+}
+
+#state {
+    left: 61px;
+}
+
+#address {
+    top: 465px;
+    width: 88%;
+}
+
+#aadhar {
+    width: 88%;
+}
+
+#mobile {
+    top: 115px;
+}
+
+#email {
+    top: 195px;
+    width: 88%;
+}
+
+#photo {
+    top: 295px;
+    width: 88%;
+}
+
+#pass {
+    width: 42%;
+    top: 350px;
+}
+
+#passs {
+    width: 42%;
+    top: 350px;
+    left: 52%;
+}
+
+.sign .btn {
+    left: 35px;
+    bottom: 110px;
+}
+
+.sign #b1{
+    left: 295px;
+    bottom: 110px;
+    background-color: #FF3131;
+}
+
+.vsr{
+    width: 81%;
+    font-size: large;
+    text-align: center;
+    color: green;
+    position: absolute;
+    top: 510px;
+}
+
+#vsr{
+    animation: blink 4s linear infinite;
+}
+
+@keyframes blink{
+    40%{
+        opacity: 0;
+    }
+    60%{
+        opacity: 100;
+    }
+}
