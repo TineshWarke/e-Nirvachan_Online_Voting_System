@@ -1,0 +1,65 @@
+.partysign{
+    background-color: #088178;
+    width: 100%;
+    height: 100vh;
+}
+
+.partysign .signupform{
+    left: 330px;
+}
+
+.partysign #regiondiv{
+    position: absolute;
+    top: 285px;
+    width: 88%;
+}
+
+.partysign #region{
+    position: absolute;
+    left: 110px;
+    width: 250px;
+}
+
+.partysign #photo{
+    top: 355px;
+}
+
+.partysign #pass{
+    top: 400px;
+}
+
+.partysign #passs{
+    top: 400px;
+}
+
+.pbox{
+    width: 87%;
+    position: absolute;
+    bottom: 55px;
+}
+
+.pbtn {
+    background-color: #088178;
+    border-radius: 7px;
+    width: 200px;
+    padding: 5px 10px;
+}
+
+.pbtn:hover {
+    background-color: transparent;
+    border: 3px black groove;
+    box-shadow: white 5px 5px 60px -12px inset;
+    color: black;
+}
+
+.partysign #b1{
+    margin-left: 88px;
+    left: 295px;
+    bottom: 110px;
+    background-color: #FF3131;
+    right: 0px;
+}
+
+.partysign .vsr{
+    top: 550px;
+}
